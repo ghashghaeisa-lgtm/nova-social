@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#110d18"><title>نُوا | شبکه اجتماعی</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app-shell">
+<header class="topbar">
+  <a class="brand" href="#" data-view="home"><span class="brand-icon">ن</span><span>نُوا</span></a>
+  <label class="search"><span>⌕</span><input id="search" placeholder="جست‌وجوی افراد..." autocomplete="off"></label>
+  <div class="top-right"><button class="icon-btn" id="messagesShortcut" title="پیام‌ها">✉</button><button class="avatar small" id="profileShortcut" title="پروفایل">ن</button></div>
+</header>
+<div class="layout">
+<aside class="left-column">
+  <section class="panel mini-profile" id="miniProfile"><div class="avatar big">ن</div><h3>به نُوا خوش آمدی</h3><p class="muted">وارد حساب شو یا ثبت‌نام کن.</p></section>
+  <nav class="panel nav">
+    <button class="nav-btn active" data-view="home"><span>⌂</span> خانه</button>
+    <button class="nav-btn" data-view="explore"><span>✧</span> کشف کاربران</button>
+    <button class="nav-btn" data-view="messages"><span>✉</span> پیام‌ها</button>
+    <button class="nav-btn" data-view="profile"><span>♙</span> پروفایل من</button>
+  </nav>
+  <section class="panel color-note"><div class="muted">رنگ‌های نُوا</div><div class="swatches"><i></i><i></i><i></i><i></i></div><p class="muted">بنفش، صورتی، مشکی و قرمز</p></section>
+</aside>
+<main id="content" class="content"><div class="loading">در حال آماده‌سازی نُوا…</div></main>
+<aside class="right-column">
+  <section class="panel"><h3 class="panel-title">درباره نُوا</h3><p class="muted">فضایی برای اشتراک لحظه‌ها، آشنایی با آدم‌های تازه و گفت‌وگو.</p><div class="tag">#دنیای_تو</div><div class="tag">#لحظه‌های_خاص</div></section>
+  <section class="panel"><h3 class="panel-title">یادآوری امنیتی</h3><p class="muted">برای حساب واقعی از رمز عبور منحصربه‌فرد استفاده کن. این نسخه نمونه اولیه است و پیش از انتشار عمومی به تنظیمات امنیتی و میزبانی مناسب نیاز دارد.</p></section>
+</aside>
+</div>
+<nav class="mobile-nav">
+  <button data-view="home" class="active"><span>⌂</span>خانه</button><button data-view="explore"><span>✧</span>کشف</button><button data-view="messages"><span>✉</span>پیام‌ها</button><button data-view="profile"><span>♙</span>پروفایل</button>
+</nav>
+<div id="toast" class="toast" role="status"></div>
+</div>
+<script src="/app.js"></script>
+</body></html>
