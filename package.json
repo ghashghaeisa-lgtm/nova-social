@@ -1,18 +1,16 @@
-
 {
-  "name": "nova-social",
-  "version": "1.0.0",
-  "description": "شبکه اجتماعی نُوا با Node.js و PostgreSQL",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "connect-pg-simple": "^10.0.0",
-    "express": "^4.21.2",
-    "express-session": "^1.18.1",
-    "multer": "^1.4.5-lts.1",
-    "pg": "^8.13.1"
-  }
+"name": "nova-social",
+"version": "1.0.0",
+"description": "شبکه اجتماعی نُوا",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+},
+"dependencies": {
+"bcryptjs": "^2.4.3",
+"better-sqlite3": "^11.7.0",
+"express": "^4.21.2",
+"express-session": "^1.18.1",
+"multer": "^1.4.5-lts.1"
+}
 }
